@@ -7,8 +7,12 @@ loginBtn.addEventListener("click", () => {
 
     RegisterForm.classList.remove("register_show");
     LoginForm.classList.remove("Login-hide");
+    registerBtn.classList.remove("active")
+    loginBtn.classList.add("active")
 })
 registerBtn.addEventListener("click", () => {
     LoginForm.classList.add("Login-hide");
     RegisterForm.classList.add("register_show");
+    loginBtn.classList.remove("active")
+    registerBtn.classList.add("active")
 })

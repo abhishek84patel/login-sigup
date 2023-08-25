@@ -33,8 +33,7 @@
 
 }
 
-.btn_box button:hover,
-.btn_box button:active {
+.btn_box .active{
     color: green;
     border-bottom: 1px solid green;
 }
