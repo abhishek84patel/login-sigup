@@ -40,10 +40,7 @@
 
 
 
-.box span {
-    color: red;
 
-}
 
 .box button {
     padding: 8px 20px;
@@ -54,6 +51,11 @@
 
 
 
+}
+.box .back{
+    background-color: unset;
+    color: rgb(0, 119, 255);
+    border: 1px solid rgb(0, 119, 255);
 }
 
 .f-w {
@@ -73,10 +75,13 @@
     justify-content: space-between;
 
 }
-
-.box button:hover {
-    background-color: rgb(25, 104, 195);
+.arrow{
+    font-size: 20px;
+   
+    vertical-align: middle;
+    margin-bottom: 3px;
 }
+
 
 .box a {
     text-decoration: none;
@@ -89,6 +94,9 @@
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.box .chekbox-wrap label::after{
+    content: unset;
 }
 
 .box .chekbox-wrap p {
@@ -110,6 +118,11 @@ input {
     width: 100%;
     margin-top: 10px;
 
+}
+label::after{
+    content: "*";
+    color: rgb(251, 3, 3);
+    vertical-align: middle;
 }
 
 .input-wraper {
