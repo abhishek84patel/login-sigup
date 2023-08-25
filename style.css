@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Login-register {
+    max-width: 400px;
+
+    margin: 100px auto;
+    padding: 10px;
+
+}
+
+
+
+.btn_box {
+
+    margin-bottom: 50px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn_box button {
+    border: none;
+    outline: unset;
+    padding: 5px 15px;
+    font-size: 18px;
+    background-color: transparent;
+    color: rgb(31, 30, 30);
+
+
+}
+
+.btn_box button:hover,
+.btn_box button:active {
+    color: green;
+    border-bottom: 1px solid green;
+}
+
+
+
+.box span {
+    color: red;
+
+}
+
+.box button {
+    padding: 8px 20px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+
+
+}
+
+.f-w {
+    width: 100%;
+
+
+
+}
+
+.center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box .bot-btn {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box button:hover {
+    background-color: rgb(25, 104, 195);
+}
+
+.box a {
+    text-decoration: none;
+    color: green;
+
+
+}
+
+.box .chekbox-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.box .chekbox-wrap p {
+    margin-left: auto;
+
+}
+
+input[type="checkbox"] {
+
+    width: unset;
+    margin: 0;
+}
+
+input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.input-wraper {
+    margin-bottom: 20px;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+
+.Register
+{
+    display: none;
+}
+.Login-hide {
+    display: none;
+}
+
+.login_show {
+    display: unset;
+    transition: all 5s ease-in-out;
+}
+
+.register_show {
+    display: unset;
+}
