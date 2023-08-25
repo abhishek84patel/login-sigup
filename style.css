@@ -33,7 +33,7 @@
 
 }
 
-.btn_box .active{
+.btn_box .active {
     color: green;
     border-bottom: 1px solid green;
 }
@@ -52,7 +52,8 @@
 
 
 }
-.box .back{
+
+.box .back {
     background-color: unset;
     color: rgb(0, 119, 255);
     border: 1px solid rgb(0, 119, 255);
@@ -75,9 +76,10 @@
     justify-content: space-between;
 
 }
-.arrow{
+
+.arrow {
     font-size: 20px;
-   
+
     vertical-align: middle;
     margin-bottom: 3px;
 }
@@ -95,7 +97,8 @@
     align-items: center;
     gap: 10px;
 }
-.box .chekbox-wrap label::after{
+
+.box .chekbox-wrap label::after {
     content: unset;
 }
 
@@ -119,7 +122,8 @@ input {
     margin-top: 10px;
 
 }
-label::after{
+
+label::after {
     content: "*";
     color: rgb(251, 3, 3);
     vertical-align: middle;
@@ -137,10 +141,10 @@ label::after{
 }
 
 
-.Register
-{
+.Register {
     display: none;
 }
+
 .Login-hide {
     display: none;
 }
